@@ -1,0 +1,30 @@
+TAHIR IQBAL PERSONAL PORTFOLIO — DEPLOY TO VERCEL
+==================================================
+
+OPTION A — NO CODING (GITHUB + VERCEL)
+1) Unzip the downloaded website ZIP.
+2) Open https://github.com/new and create a repository, e.g. tahir-iqbal-portfolio.
+3) Open the repository → Add file → Upload files.
+4) Select all files INSIDE the unzipped folder (index.html, styles.css,
+   script.js, projects.json, favicon.svg, robots.txt, README.md).
+   Upload them at the TOP LEVEL of the repository, not inside an extra folder.
+5) Open https://vercel.com/new, sign in, click Import Git Repository,
+   choose tahir-iqbal-portfolio.
+6) Framework Preset = Other; Root Directory = ./; Build Command = blank;
+   Output Directory = blank/default. Click Deploy.
+7) When the build is READY, open your *.vercel.app URL.
+
+OPTION B — VERCEL CLI (FASTEST IF YOU HAVE NODE.JS)
+1) Unzip the ZIP and open Command Prompt / Terminal inside the folder.
+2) Run: npm install -g vercel
+3) Run: vercel login
+4) Run: vercel --prod
+5) Answer initial prompts (link/create project, other framework,
+   root directory this folder). Your live URL appears after deployment.
+
+IMPORTANT:
+- The images currently use original public portfolio image URLs.
+  Keep the original website online or copy images into the project and
+  change their URLs in projects.json and index.html.
+- Content/metrics are from reporting snapshots and may overlap by period.
+- Contact WhatsApp: +92 317 8970475. Update the links in index.html as needed.
